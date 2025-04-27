@@ -1,0 +1,9 @@
+# Get decimal number from the user
+
+decimal_input = int(input("Enter a decimal integer: "))
+
+# Convert to binary using bin()
+binary_output = bin(decimal_input)
+
+# Print the result
+print(f"The binary representation of {decimal_input} is: {binary_output}")
